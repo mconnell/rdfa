@@ -1,0 +1,6 @@
+<%= form_tag :query do %>
+  <%= label_tag 'Enter RDFa source URI:'%>
+  <br />
+  <%= text_field_tag :uri, nil, :size => 100 %>
+  <%= submit_tag 'Parse into RDA Statements'%>
+<% end %>

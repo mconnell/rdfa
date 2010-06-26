@@ -1,4 +1,6 @@
 Rdfa::Application.routes.draw do |map|
+  root :to => 'queries#new'
+  resource :query
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
